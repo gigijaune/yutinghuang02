@@ -1,0 +1,73 @@
+head {
+	font-family: 'Calistoga', cursive;
+	
+}
+
+.parent {
+	display: flex;
+	background: orange;
+	flex-direction: row;
+	justify-content: space-around;
+} 
+
+.h1 {
+    font-size: 45px;	
+}
+
+.h3 {
+    font-size: 30px;
+    color: #784c25;
+
+}
+
+#nom {
+	font-size: 45px;
+	color:#f16625;
+	text-shadow: 0 0 2px #de0b3c #000;
+	line-height: 5px;
+	padding-bottom: 20px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align: center;
+}
+
+.imag {
+	border-width: 10px;
+	border-color: #f5b642
+}
+.container {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-image: url(images/bg.jpg);
+	background size: 100%;
+	background-position: 50% 50%;
+	background-repeat: repeat;
+
+}
+.cartel_question {
+    display: block;
+    height: 100px;
+    text-align: center;
+    text-shadow: 0 0 2px #fff #000;
+}
+
+h1 {
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.pic_us {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-between;flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+
+}
+.association, .pj, .picus1 {
+	background: #edf0c2; right bottom;
+	background-repeat: no-repeat;
+	padding: 5px 10px 10px 5px;
+
+}
